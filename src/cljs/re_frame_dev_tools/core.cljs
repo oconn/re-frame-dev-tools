@@ -1,7 +1,7 @@
 (ns re-frame-dev-tools.core
   (:require [reagent.core :as reagent]
 
-            [re-frame-dev-tools.tools.time-travel :refer [time-travel]]))
+            [re-frame-dev-tools.tools.time-travel :refer [time-travel-tool]]))
 
 (defonce tool-state
   (reagent/atom {:active-tool nil
